@@ -36,6 +36,15 @@ The easiest way to install tippecanoe on OSX is with [Homebrew](http://brew.sh/)
 ```js
 $ brew install tippecanoe
 ```
+CentOS
+
+```sh
+git clone https://github.com/mapbox/tippecanoe.git
+yum install sqlite-devel
+yum install zlib-devel
+make
+make install
+```
 
 Usage
 -----
