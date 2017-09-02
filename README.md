@@ -39,12 +39,13 @@ $ brew install tippecanoe
 CentOS
 
 ```sh
-git clone https://github.com/mapbox/tippecanoe.git
-yum group install "Development Tools" 
-yum install sqlite-devel
-yum install zlib-devel
-make
-make install
+$ git clone https://github.com/mapbox/tippecanoe.git
+$ yum group install "Development Tools" 
+$ yum install sqlite-devel
+$ yum install zlib-devel
+$ cd tippecanoe
+$ make
+$ make install
 ```
 
 Usage
